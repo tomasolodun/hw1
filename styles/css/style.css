@@ -1,0 +1,47 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\000031}}
+* { margin: 0px; padding: 0%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\000036}}
+.testimonial { position: relative; display: grid; grid-template-columns: 12fr; grid-template-rows: 4fr; width: 1440 px; max-width: 1440 px; height: 1201 px; margin: 3%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000317}}
+.client-testimonial { position: absolute; width: 1440px; height: 1201.5px; left: 68px; top: -1px; background: #ffffff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000327}}
+.header__title { color: #758091; font-family: Poppins; font-style: normal; font-weight: 600; line-height: 54px; margin: 100px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000335}}
+.header h1 { text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000338}}
+.header__ellipse { position: absolute; z-index: -1; width: 501px; height: 501px; left: -122px; top: -60px; border-radius: 5%; background: linear-gradient(145.44deg, #E8EDF0 10.54%, rgba(232, 237, 240, 0) 85.04%); border-radius: 450px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000351}}
+p { font-family: "Poppins", sans-serif; color: #232527; font-size: 0.8rem; padding-left: 2%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000358}}
+img { width: 100%; height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000363}}
+.client { border: 1px solid #e9ecf2; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-filter: drop-shadow(0px 3.84083px 20.1644px rgba(157, 175, 181, 0.25)); filter: drop-shadow(0px 3.84083px 20.1644px rgba(157, 175, 181, 0.25)); border-radius: 15.3633px; margin: 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000370}}
+.client__photo { border-radius: 15.3633px; overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000374}}
+.client__photo__round { max-width: 15%; min-width: 50 px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000378}}
+.client__photo__half { border-radius: 15.3633px; overflow: hidden; width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000385}}
+.client__block__info { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000390}}
+.client__info { padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000393}}
+.client__info__main { margin: 3%; width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\0000399}}
+.client__rating { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; position: static; width: 77.78px; height: 12.48px; left: 0px; top: 47.68px; padding: 2%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\00003111}}
+.first { grid-area: 1 / 2 / 12 / 4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\00003114}}
+.second { grid-area: 1 / 5 / 12 / 10; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Toma\/EpamProjects\/Repeating\/hw1\/styles\/scss\/style\.scss}line{font-family:\00003117}}
+.third { grid-area: 1 / 10 / 12 / 12; }
