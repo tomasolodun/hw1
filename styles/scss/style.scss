@@ -24,28 +24,32 @@
 }
 
 .header {
-    &__title {        
-        color: #758091;
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 54px;
-        margin: 100px 0;
-    }
-    h1 {
-        text-align: center;
-    }
-    &__ellipse {
-        position: absolute;
-        z-index: -1;
-        width: 501px;
-        height: 501px;
-        left: -122px;
-        top: -60px;
-        border-radius: 5%;
-        background: linear-gradient(145.44deg, #E8EDF0 10.54%, rgba(232, 237, 240, 0) 85.04%);
-        border-radius: 450px;
-    }
+  &__title {
+    color: #758091;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    margin: 100px 0;
+  }
+  h1 {
+    text-align: center;
+  }
+  &__ellipse {
+    position: absolute;
+    z-index: -1;
+    width: 501px;
+    height: 501px;
+    left: -122px;
+    top: -60px;
+    border-radius: 5%;
+    background: linear-gradient(
+      145.44deg,
+      #e8edf0 10.54%,
+      rgba(232, 237, 240, 0) 85.04%
+    );
+    border-radius: 450px;
+  }
 }
 
 p {
