@@ -18,86 +18,106 @@
     <header class="header">
       <div class="header__title">
         <h1>Are my clients happy?</h1>
+        <button class="header__button">Load</button>
       </div>
       <div class="header__ellipse"></div>
+      <button class="previous">Previous</button>
+      <button class="next">Next</button>
     </header>
-    <div class="testimonial">
+
+    <main class="reviews">
       <div class="first">
         <div class="client">
           <div class="client__photo">
             <img src="./img/image_2021-10-26_12-52-44.png" alt="1st" />
           </div>
-          <div class="client__info">
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
-            <div class="client__info__main">
-              <b><p>Istiak Ahmed</p></b>
-              <p>CEO, Avito</p>
 
-              <div class="client__rating">
-                <img src="./img/star-regular.svg" alt="" class="vector" />
-                <img src="./img/star-regular.svg" alt="" class="vector" />
-                <img src="./img/star-regular.svg" alt="" class="vector" />
-                <img src="./img/star-regular.svg" alt="" class="vector" />
-                <img src="./img/star-regular.svg" alt="" class="vector" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="client">
-          <div class="client__info">
-            <div class="client__block__info">
-              <div class="client__photo__round">
-                <img src="./img/image_2021-10-27_01-39-05.png" alt="1st" />
-              </div>
-
-              <div class="client__info__main">
-                <b><p>Jon Sari</p></b>
-                <p>CEO, Avito</p>
-
-                <div class="client__rating">
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                </div>
-              </div>
-            </div>
-
-            <p>
+          <div class="client__block__info vertical">
+            <p class="client__review">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam
             </p>
+            <div class="client__info__main">
+              <b><p class="client__info__main__name"></p></b>
+              <p class="client__info__main__position">CEO, Avito</p>
+
+              <div class="client__info__main__rating">
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+              </div>
+            </div>
           </div>
+        </div>
+
+        <div class="client">
+          <div class="client__block__info">
+            <div class="client__photo client__photo__round">
+              <img src="./img/image_2021-10-27_01-39-05.png" alt="1st" />
+            </div>
+
+            <div class="client__info__main">
+              <b><p class="client__info__main__name">Jon Sari</p></b>
+              <p class="client__info__main__position">CEO, Avito</p>
+
+              <div class="client__info__main__rating">
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+              </div>
+            </div>
+          </div>
+          <p class="client__review">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam
+          </p>
         </div>
       </div>
 
       <div class="second">
+        <div class="client horisontal">
+          <div class="client__photo client__photo__half">
+            <img src="./img/image_2021-10-27_01-38-48.png" alt="1st" />
+          </div>
+
+          <div class="client__block__info__half">
+            <p class="client__review">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam
+            </p>
+            <div class="client__info__main">
+              <b><p class="client__info__main__name">Rahul Deb</p></b>
+              <p class="client__info__main__position">CEO, Avito</p>
+
+              <div class="client__info__main__rating">
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="client">
           <div class="client__block__info">
-            <img
-              src="./img/image_2021-10-27_01-38-48.png"
-              alt="1st"
-              class="client__photo__half"
-            />
+            <div class="client__photo client__photo__round">
+              <img src="./img/image_2021-10-27_10-24-38.png" alt="1st" />
+            </div>
 
             <div class="client__info__main">
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam
-              </p>
+              <b><p class="client__info__main__name">Ahmed Saimoon</p></b>
+              <p class="client__info__main__position">CEO, Avito</p>
 
-              <b><p>Rahul Deb</p></b>
-              <p>CEO, Avito</p>
-
-              <div class="client__rating">
+              <div class="client__info__main__rating">
                 <img src="./img/star-regular.svg" alt="" class="vector" />
                 <img src="./img/star-regular.svg" alt="" class="vector" />
                 <img src="./img/star-regular.svg" alt="" class="vector" />
@@ -106,126 +126,91 @@
               </div>
             </div>
           </div>
+          <p class="client__review">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam
+          </p>
         </div>
 
         <div class="client">
-          <div class="client__info">
-            <div class="client__block__info">
-              <div class="client__photo__round">
-                <img src="./img/image_2021-10-27_10-24-38.png" alt="1st" />
-              </div>
+          <div class="client__block__info">
+            <div class="client__photo client__photo__round">
+              <img src="./img/image_2021-10-27_01-39-12.png" alt="1st" />
+            </div>
+            <div class="client__info__main">
+              <b><p class="client__info__main__name">Sakib Mo</p></b>
+              <p class="client__info__main__position">CEO, Avito</p>
 
-              <div class="client__info__main">
-                <b><p>Ahmed Saimoon</p></b>
-                <p>CEO, Avito</p>
-
-                <div class="client__rating">
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                </div>
+              <div class="client__info__main__rating">
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
               </div>
             </div>
-
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
           </div>
-        </div>
-
-        <div class="client">
-          <div class="client__info">
-            <div class="client__block__info">
-              <div class="client__photo__round">
-                <img src="./img/image_2021-10-27_01-39-12.png" alt="1st" />
-              </div>
-
-              <div class="client__info__main">
-                <b><p>Sakib Mo</p></b>
-                <p>CEO, Avito</p>
-
-                <div class="client__rating">
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                </div>
-              </div>
-            </div>
-
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
-          </div>
+          <p class="client__review">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam
+          </p>
         </div>
       </div>
 
       <div class="third">
         <div class="client">
-          <div class="client__info">
-            <div class="client__block__info">
-              <div class="client__photo__round">
-                <img src="./img/image_2021-10-27_01-38-56.png" alt="1st" />
-              </div>
+          <div class="client__block__info">
+            <div class="client__photo client__photo__round">
+              <img src="./img/image_2021-10-27_01-38-56.png" alt="1st" />
+            </div>
+            <div class="client__info__main">
+              <b><p class="client__info__main__name">Nazmul Karim</p></b>
+              <p class="client__info__main__position">CEO, Avito</p>
 
-              <div class="client__info__main">
-                <b><p>Nazmul Karim</p></b>
-                <p>CEO, Avito</p>
-
-                <div class="client__rating">
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                </div>
+              <div class="client__info__main__rating">
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
               </div>
             </div>
-
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
           </div>
+          <p class="client__review">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam
+          </p>
         </div>
 
         <div class="client">
-          <div class="client__info">
-            <div class="client__block__info">
-              <div class="client__photo__round">
-                <img src="./img/image_2021-10-27_01-39-19.png" alt="1st" />
-              </div>
+          <div class="client__block__info">
+            <div class="client__photo client__photo__round">
+              <img src="./img/image_2021-10-27_01-39-19.png" alt="1st" />
+            </div>
+            <div class="client__info__main">
+              <b><p class="client__info__main__name">Amir Khan</p></b>
+              <p class="client__info__main__position">CEO, Avito</p>
 
-              <div class="client__info__main">
-                <b><p>Amir Khan</p></b>
-                <p>CEO, Avito</p>
-
-                <div class="client__rating">
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                  <img src="./img/star-regular.svg" alt="" class="vector" />
-                </div>
+              <div class="client__info__main__rating">
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
+                <img src="./img/star-regular.svg" alt="" class="vector" />
               </div>
             </div>
-
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt
-            </p>
           </div>
+          <p class="client__review">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam
+          </p>
         </div>
       </div>
-    </div>
+    </main>
+    <script src="./index.js"></script>
   </body>
 </html>

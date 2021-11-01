@@ -1,36 +1,50 @@
 * {
   margin: 0px;
-  padding: 0%; }
+  padding: 0px; }
 
-.testimonial {
+.reviews {
   position: relative;
-  display: grid;
+  display: none;
   grid-template-columns: 12fr;
-  grid-template-rows: 4fr;
   width: 1440 px;
   max-width: 1440 px;
   height: 1201 px;
   margin: 3%; }
 
-.client-testimonial {
-  position: absolute;
-  width: 1440px;
-  height: 1201.5px;
-  left: 68px;
-  top: -1px;
-  background: #ffffff; }
+button, .header__button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 1 px solid #e9ecf2;
+  font-family: "Poppins", sans-serif;
+  color: #293238;
+  font-size: 0.8rem;
+  font-weight: 600; }
+
+button:hover, .header__button:hover {
+  background-color: #e9ecf2;
+  color: black;
+  cursor: pointer; }
+
+.previous {
+  position: fixed;
+  top: 5px;
+  left: 10px; }
+
+.next {
+  position: fixed;
+  top: 5px;
+  right: 10px; }
 
 .header__title {
-  color: #758091;
+  color: #758090;
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
   line-height: 54px;
-  margin: 100px 0; }
-.header h1 {
+  margin: 100px 0;
   text-align: center; }
 .header__ellipse {
-  position: absolute;
+  position: fixed;
   z-index: -1;
   width: 501px;
   height: 501px;
@@ -42,13 +56,12 @@
 
 p {
   font-family: "Poppins", sans-serif;
-  color: #232527;
+  color: #293238;
   font-size: 0.8rem;
   padding-left: 2%; }
 
 img {
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .client {
   border: 1px solid #e9ecf2;
@@ -57,12 +70,14 @@ img {
   -webkit-filter: drop-shadow(0px 3.84083px 20.1644px rgba(157, 175, 181, 0.25));
           filter: drop-shadow(0px 3.84083px 20.1644px rgba(157, 175, 181, 0.25));
   border-radius: 15.3633px;
-  margin: 2%; }
+  margin: 10px; }
+  .client__review {
+    margin: 20px 0px; }
   .client__photo {
     border-radius: 15.3633px;
     overflow: hidden; }
     .client__photo__round {
-      max-width: 15%;
+      max-width: 20%;
       min-width: 50 px; }
     .client__photo__half {
       border-radius: 15.3633px;
@@ -72,32 +87,41 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
-  .client__info {
-    padding: 10px; }
-    .client__info__main {
-      margin: 3%;
-      width: 50%; }
-  .client__rating {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    position: static;
-    width: 77.78px;
-    height: 12.48px;
-    left: 0px;
-    top: 47.68px;
-    padding: 2%; }
+            align-items: center;
+    margin: 20px; }
+    .client__block__info__half {
+      width: 50%;
+      -ms-flex-item-align: center;
+          align-self: center;
+      margin: 20px; }
+  .client__info__main {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    width: 100%; }
+    .client__info__main__rating {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      position: static;
+      width: 77.78px;
+      height: 12.48px;
+      left: 0px;
+      top: 47.68px;
+      padding: 2%; }
+
+.client:hover {
+  background-color: #e6e6e6;
+  cursor: pointer; }
+
+.vector {
+  width: 100%;
+  height: 100%; }
 
 .first {
   grid-area: 1 / 2 / 12 / 4; }
@@ -107,3 +131,19 @@ img {
 
 .third {
   grid-area: 1 / 10 / 12 / 12; }
+
+.horisontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px; }
+
+.vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px; }

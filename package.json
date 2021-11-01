@@ -1,11 +1,8 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "postcss-cli": "^9.0.1",
-    "postcss-nested": "^5.0.6"
+  "dependencies": {
+    "postcss": "^8.3.11"
   },
-  "scripts": {
-    "start": "node index.js",
-    "postcss": "postcss --use autoprefixer -o main.css css/*.css"
+  "devDependencies": {
+    "autoprefixer": "^10.4.0"
   }
 }
