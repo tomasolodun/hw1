@@ -35,12 +35,14 @@ button:hover {
   position: fixed;
   top: 5px;
   left: 10px;
+  z-index: 1;
 }
 
 .next {
   position: fixed;
   top: 5px;
   right: 10px;
+  z-index: 1;
 }
 
 .header {
@@ -93,14 +95,14 @@ img {
   margin: 10px;
 
   &__review {
-    margin: 20px 0px;
+    margin: 10px 5px;
   }
   &__photo {
     border-radius: 15.3633px;
     overflow: hidden;
 
     &__round {
-      max-width: 20%;
+      max-width: 17%;
       min-width: 50 px;
     }
     &__half {
@@ -123,6 +125,7 @@ img {
   &__info__main {
     align-self: flex-start;
     width: 100%;
+    padding: 5px;
 
     &__rating {
       display: flex;
@@ -147,25 +150,48 @@ img {
 }
 
 .first {
-  grid-area: 1 / 2 / 12 / 4;
+  grid-column: 2/4;
 }
 .second {
-  grid-area: 1 / 5 / 12 / 10;
+  grid-column: 5/10;
 }
 .third {
-  grid-area: 1 / 10 / 12 / 12;
+  grid-column: 10/12;
 }
 
 .horisontal {
   display: flex;
-  padding: 0px;
 }
 .vertical {
   display: flex;
   flex-direction: column;
-  padding: 0px;
 }
 
-// display: flex;
-//     flex-direction: column;
-//     align-items: center;
+@media screen and (max-width: 900px) {
+  .client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__photo__round {
+      max-width: 35%;
+    }
+
+    &__block__info {
+      flex-direction: column;
+      &__half {
+        width: 100%;
+      }
+    }
+  }
+
+  .first {
+    grid-column: 2/5;
+  }
+  .second {
+    grid-column: 6/9;
+  }
+  .third {
+    grid-column: 9/12;
+  }
+}
