@@ -10,10 +10,10 @@ let showButton = document.querySelector(".header__button");
 showButton.addEventListener("click", () => showItems());
 
 let previousButton = document.querySelector(".previous");
-previousButton.addEventListener("click", () => history.back());
+previousButton.addEventListener("click", () => location.assign(history.back()));
 
 let nextButton = document.querySelector(".next");
-nextButton.addEventListener("click", () => history.forward());
+nextButton.addEventListener("click", () => location.assign(history.forward()));
 
 async function getUser() {
   let url = "https://random-data-api.com/api/users/random_user";
