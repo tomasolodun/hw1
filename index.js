@@ -35,9 +35,34 @@ async function getReview() {
   }
 }
 
+async function getLocation() {
+  let lat = getRandomInRange(-180, 180, 3);
+  let lon = getRandomInRange(-180, 180, 3);
+  console.log(lat, lon);
+  let url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`;
+
+  try {
+    let res = await fetch(url);
+    return await res.json();
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+function getRandomInRange(from, to, fixed) {
+  return (Math.random() * (to - from) + from).toFixed(fixed) * 1;
+}
+
+let fillLocation = async () => {
+  userCurrentLocation = await getLocation();
+  currentLocation = document.querySelector(".currentLocation");
+  currentLocation.innerHTML = userCurrentLocation.display_name || "Not found";
+};
+
 let fillUserData = async (user) => {
   userData = await getUser();
   userReview = await getReview();
+
   fullName = user.querySelector(".client__info__main__name");
   img = user.querySelector(".client__photo > img ");
   position = user.querySelector(".client__info__main__position");
@@ -55,4 +80,5 @@ async function renderUsers() {
   for (let userIndex = 0; userIndex < usersElements.length; userIndex++) {
     await fillUserData(usersElements[userIndex]);
   }
+  await fillLocation();
 }
